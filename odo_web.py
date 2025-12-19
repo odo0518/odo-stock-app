@@ -16,10 +16,28 @@ st.set_page_config(page_title="Odo 股市操盤戰情室", page_icon="📈", lay
 # 預設清單 (當沒有設定檔時使用)
 DEFAULT_WATCHLIST = [
     {"id": "2330.TW", "name": "台積電", "ma": 18},
-    {"id": "2317.TW", "name": "鴻海",   "ma": 20},
-    {"id": "NVDA",    "name": "輝達",   "ma": 20},
-    {"id": "TSLA",    "name": "特斯拉", "ma": 50},
-    {"id": "2603.TW", "name": "長榮",   "ma": 10},
+    {"id": "2301.TW", "name": "光寶", "ma": 18},
+    {"id": "2324.TW", "name": "仁寶", "ma": 19},
+    {"id": "2006.TW", "name": "東和鋼鐵", "ma": 21},
+    {"id": "2303.TW", "name": "聯電", "ma": 21},
+    {"id": "2382.TW", "name": "廣達", "ma": 23},
+    {"id": "3231.TW", "name": "緯創", "ma": 26},
+    {"id": "2454.TW", "name": "聯發科", "ma": 29},
+    {"id": "2317.TW", "name": "鴻海",   "ma": 18},
+    {"id": "NVDA",    "name": "輝達",   "ma": 19},
+    {"id": "TSLA",    "name": "特斯拉", "ma": 17},
+    {"id": "MSFT", "name": "微軟", "ma": 21},
+    {"id": "GOOGLE", "name": "GOOGLE", "ma": 26},
+    {"id": "AMZN", "name": "亞馬遜", "ma": 19},
+    {"id": "APPL", "name": "蘋果", "ma": 19},
+    {"id": "AMD", "name": "AMD", "ma": 22},
+    {"id": "ADBE", "name": "ADOBE", "ma": 25},
+    {"id": "ASML", "name": "阿麥斯", "ma": 24},
+    {"id": "NFLX", "name": "奈飛", "ma": 23},
+    {"id": "COST", "name": "好市多", "ma": 18},
+    {"id": "MA", "name": "萬事達卡", "ma": 33},
+    {"id": "V", "name": "VISA卡", "ma": 22},
+    {"id": "2603.TW", "name": "長榮",   "ma": 35},
 ]
 
 # ==========================================
@@ -258,4 +276,5 @@ if start_btn:
         st.warning("無資料或所有股票下載失敗")
 
 st.markdown("---")
+
 st.markdown("Designed by **Odo AI Assistant** | Powered by Streamlit")
