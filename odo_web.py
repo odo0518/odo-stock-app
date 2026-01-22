@@ -24,6 +24,7 @@ DEFAULT_WATCHLIST = [
     {"id": "3231.TW", "name": "緯創", "ma": 26},
     {"id": "2454.TW", "name": "聯發科", "ma": 29},
     {"id": "2317.TW", "name": "鴻海",   "ma": 19},
+    {"id": "2603.TW", "name": "長榮",   "ma": 35},
     {"id": "NVDA",    "name": "輝達",   "ma": 19},
     {"id": "TSLA",    "name": "特斯拉", "ma": 17},
     {"id": "MSFT", "name": "微軟", "ma": 21},
@@ -37,7 +38,6 @@ DEFAULT_WATCHLIST = [
     {"id": "COST", "name": "好市多", "ma": 18},
     {"id": "MA", "name": "萬事達卡", "ma": 33},
     {"id": "V", "name": "VISA卡", "ma": 22},
-    {"id": "2603.TW", "name": "長榮",   "ma": 35},
 ]
 
 # ==========================================
@@ -278,4 +278,5 @@ if start_btn:
 st.markdown("---")
 
 st.markdown("Designed by **Odo AI Assistant** | Powered by Streamlit")
+
 
