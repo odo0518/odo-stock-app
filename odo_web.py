@@ -72,7 +72,7 @@ DEFAULT_WATCHLIST = [
 {"id": "2344.TW", "name": "華邦電", "ma": 31},
 {"id": "2345.TW", "name": "智邦", "ma": 28},
 {"id": "2352.TW", "name": "佳士達", "ma": 19},
-{"id": "2353.TW", "name": "宏碁", "ma": 17},
+{"id": "2353.TW", "name": "宏碁", "ma": 20},
 {"id": "2354.TW", "name": "鴻準", "ma": 34},
 {"id": "2356.TW", "name": "英業達", "ma": 23},
 {"id": "2357.TW", "name": "華碩", "ma": 21},
@@ -371,6 +371,7 @@ if start_btn:
 st.markdown("---")
 
 st.markdown("Designed by **Odo AI Assistant** | Powered by Streamlit")
+
 
 
 
