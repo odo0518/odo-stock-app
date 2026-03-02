@@ -125,6 +125,7 @@ DEFAULT_WATCHLIST = [
 {"id": "6285.TW", "name": "啟碁", "ma": 21},
 {"id": "6667.TW", "name": "信紘科", "ma": 26},
 {"id": "6669.TW", "name": "緯穎", "ma": 28},
+{"id": "6706.TW", "name": "惠特", "ma": 19},
 {"id": "6721.TW", "name": "信實", "ma": 17},
 {"id": "6728.TW", "name": "上洋", "ma": 19},
 {"id": "6805.TW", "name": "富世達", "ma": 18},
@@ -371,6 +372,7 @@ if start_btn:
 st.markdown("---")
 
 st.markdown("Designed by **Odo AI Assistant** | Powered by Streamlit")
+
 
 
 
